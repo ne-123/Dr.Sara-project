@@ -1,0 +1,194 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    padding: 0 !important;
+}
+.navbar-brand image
+{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: rgb(230, 21, 21);
+    font-size: 20px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+/*------banner section------*/
+
+
+#banner
+{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: #fff;
+    padding-top:5%;
+}
+
+.promo-title
+{
+   font-size: 40px;
+   font-weight: 600;
+   margin-top: 100px;
+   
+}
+.play-btn
+{
+    width: 45px;
+    margin: 50px;
+}
+.img-fluid
+{
+    width: 350px;
+    margin: 50px 200px;
+    background-image: linear-gradient(to right,#a517ba,#5f1782)
+}
+
+#banner a
+{
+    color: #fff;
+    text-decoration: none;
+
+}
+.bottom-img
+{
+    width: 100%;
+}
+
+/*-------Services Section---------*/
+
+#services
+{
+   padding: 80px 0px;
+}
+.services-img
+{
+    width: 100px;
+    margin-top: 20px;
+}
+.services
+{
+    padding: 20px;
+}
+.services h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before
+{
+  content: '';
+  background: rgb(122, 7, 114);
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+.title::after
+{
+  content: '';
+  background: rgb(122, 7, 114);
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+}
+ #services .btn-primary
+{
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px ;
+  background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+/*------------ about us section------------*/
+#about-us
+{
+    background: #fff;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+#about-us ul li
+{
+    margin: 20px 0px;
+}
+#about-us ul
+{
+    margin-left: 20px;
+}
+/*-------------social media section---------------*/
+
+#social-media
+{
+    background: #a517ba;
+    padding: 100px 0;
+}
+#social-media p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+ .social-icons img
+{
+    width: 60px;
+    
+    transition: 0.5s;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+} 
+.neama
+{
+    padding: 50px 0 0  ;
+    font-size: 25px;
+    font-weight: 500;
+}
+.name
+{
+    font-weight: 500px;
+    font-size: 20px;
+}
+
